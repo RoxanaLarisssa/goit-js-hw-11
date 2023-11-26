@@ -76,7 +76,6 @@ async function handleSearch(event) {
     );
   } finally {
     disableEl(searchBtn, false);
-    //  reset(gallery);
   }
 }
 

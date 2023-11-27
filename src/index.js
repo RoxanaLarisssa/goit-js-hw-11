@@ -12,7 +12,7 @@ let gallery = new SimpleLightbox('.photo-card a');
 let page = 1;
 
 axios.defaults.baseURL = 'https://pixabay.com/api/';
-const KEY = '39787944-43ec837227cb503858330c56a';
+const KEY = '40924862-56f4c70484d80a98ef4c30bbb';
 
 function getValue() {
   let input = form.elements.searchQuery;

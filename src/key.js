@@ -3,7 +3,7 @@ import axios from 'axios';
 axios.defaults.baseURL = 'https://pixabay.com/api/';
 
 export async function serviceImages(value, page = 1) {
-  const KEY = '39787944-43ec837227cb503858330c56a';
+  const KEY = '40924862-56f4c70484d80a98ef4c30bbb';
   try {
     const resp = await axios.get('', {
       params: {
